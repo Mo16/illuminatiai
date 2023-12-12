@@ -1592,7 +1592,7 @@ body {
 
 .videobox {
     display: flex;
-    flex: 1;
+    flex: 2;
     align-items: center;
 }
 .text-box {
