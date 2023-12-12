@@ -14,7 +14,7 @@
     /* Color */
     --bg-body-rgb: 7, 7, 7;
     --bg-body: rgb(var(--bg-body-rgb));
-    --c-primary-rgb: 0, 255, 65;
+    --c-primary-rgb: 255, 255, 255;
     --c-primary: rgb(var(--c-primary-rgb));
     --c-secondary-rgb: 65, 65, 65;
     --c-secondary: rgb(var(--c-secondary-rgb));
