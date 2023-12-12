@@ -65,8 +65,12 @@
     position: relative;
     box-sizing: border-box;
 }
+svg{ 
+  color: rgb(85, 0, 195)
+}
 
 html {
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: subpixel-antialiased;
