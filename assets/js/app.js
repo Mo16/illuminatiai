@@ -176,14 +176,14 @@ gsap.fromTo('.motif > *', { y: '0%' }, { y: '25%',
 
 /** Hero */
 
-gsap.fromTo('.hero-bg', { y: '0%' }, { y: '25%',
-  scrollTrigger: {
-    trigger: '.hero',
-    start: 'top top',
-    end: 'bottom top',
-    scrub: true
-  }
-})
+// gsap.fromTo('.hero-bg', { y: '0%' }, { y: '25%',
+//   scrollTrigger: {
+//     trigger: '.hero',
+//     start: 'top top',
+//     end: 'bottom top',
+//     scrub: true
+//   }
+// })
 
 /** About */
 
