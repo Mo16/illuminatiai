@@ -56,19 +56,19 @@ class Scroller {
     this.revelAnimation()
 
   }
-  fixDetect () {
+  // fixDetect () {
 
-    const scrollY = window.scrollY
+  //   const scrollY = window.scrollY
 
-    if (scrollY > 0) {
-      body.classList.add(this.class.fix)
-    } else {
-      body.classList.remove(this.class.fix)
-    }
+  //   if (scrollY > 0) {
+  //     body.classList.add(this.class.fix)
+  //   } else {
+  //     body.classList.remove(this.class.fix)
+  //   }
 
-    this.pos = scrollY
+  //   this.pos = scrollY
 
-  }
+  // }
   revelAnimation () {
 
     const observer = new IntersectionObserver((entries, observer) => {
